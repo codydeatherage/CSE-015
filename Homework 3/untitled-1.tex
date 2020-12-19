@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{intersections}
+
+
+
+
+\begin{document}
+\center\textbf{Homework 4}
+\begin{flushleft}
+
+\textbf{Question 1}
+
+The best-case for insertion sort would be 1, 2, 3, 4, 5, where 0 is the number being inserted. \\
+The worst-case for insertion sort would the same but in reverse: 5, 4, 3, 2, 1.
+
+\textbf{Question 2}
+
+The worst case order of complexity for insertion sort is $\mathcal{O}(n^2)$.\\
+
+Insertion sort takes the newest element and tries to place it into the first correct index of the sorted set. The worst case from Question 1 would require x to be compared 5 times, so the formula for comparing and sorting n elements becomes $\frac{n(n+1)}{2} - 1$.
+
+\bigskip
+
+\textbf{Question 3}
+
+The overall complexity for the sort procedure is $\mathcal{O}(n^2)$.
+\end{flushleft}
+\end{document}

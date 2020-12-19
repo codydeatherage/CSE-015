@@ -1,0 +1,13 @@
+def AND(p,q):
+
+if(true AND true):
+	print "True"
+else:
+print "False"
+
+Print "Basic Operations Test"
+print
+p = True
+q = False
+
+print AND(p,q)
